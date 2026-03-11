@@ -119,3 +119,110 @@
         footer {
             background: #1e3c72;
             color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+            font-size: 0.9rem;
+        }
+
+        /* ANIMATIONS */
+        @keyframes fadeIn {
+            from {opacity: 0;}
+            to {opacity: 1;}
+        }
+        @keyframes fadeInUp {
+            from {opacity: 0; transform: translateY(20px);}
+            to {opacity: 1; transform: translateY(0);}
+        }
+        @keyframes zoomIn {
+            from {opacity: 0; transform: scale(0.7);}
+            to {opacity: 1; transform: scale(1);}
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- HERO SECTION -->
+    <div class="hero">
+        <h1><i class="fas fa-user-tie"></i> Hemant Kaushik</h1>
+        <p>Senior Data Engineer • Databricks • Informatica • AWS • Snowflake</p>
+
+        <a class="resume-btn" href="https://github.com/YOUR_USERNAME/hemant-resume/blob/main/Hemant_Kaushik_Resume_2026.pdf" target="_blank">
+            <i class="fas fa-file-pdf"></i> Download Resume (PDF)
+        </a>
+    </div>
+
+
+    <div class="container">
+
+        <!-- SUMMARY -->
+        <h2 class="section-title"><i class="fas fa-user-circle"></i> Professional Summary</h2>
+        <div class="card">
+            <p>Senior Data Engineer with 16+ years of expertise in Databricks, Informatica, Snowflake, Oracle PL/SQL,
+               AWS S3/Glue/DMS, ETL migrations, large-scale ingestion pipelines, performance optimization, and
+               multi-cloud data engineering.</p>
+        </div>
+
+        <!-- SKILLS -->
+        <h2 class="section-title"><i class="fas fa-tools"></i> Skills</h2>
+        <div class="card skills">
+            <span>Databricks</span>
+            <span>PySpark</span>
+            <span>Informatica IICS</span>
+            <span>PowerCenter</span>
+            <span>AWS S3 / Glue / DMS</span>
+            <span>Snowflake</span>
+            <span>Oracle PL/SQL</span>
+            <span>Python</span>
+            <span>Unix Shell Scripting</span>
+            <span>CI/CD • Jenkins</span>
+            <span>Bitbucket</span>
+            <span>SQL Optimization</span>
+        </div>
+
+        <!-- EXPERIENCE -->
+        <h2 class="section-title"><i class="fas fa-briefcase"></i> Experience</h2>
+        <div class="card timeline">
+
+            <div class="timeline-entry">
+                <h3>Capgemini • Senior Data Engineer</h3>
+                <small>Feb 2023 – Present</small>
+                <p>Leading Databricks migration, pipeline architecture, PySpark development, CI/CD, and customer delivery.</p>
+            </div>
+
+            <div class="timeline-entry">
+                <h3>Hexaware Technologies • Senior Data Engineer</h3>
+                <small>Jul 2022 – Jan 2023</small>
+                <p>ETL migration to IICS, Snowflake development, AWS ingestion workflows, and UAT/Test preparation.</p>
+            </div>
+
+            <div class="timeline-entry">
+                <h3>Express Analytics • Sr. Datawarehouse Developer</h3>
+                <small>Oct 2020 – Jun 2022</small>
+                <p>Migration of ETL pipelines, Redshift/Snowflake development, Python-based ingestion, and client collaboration.</p>
+            </div>
+
+            <div class="timeline-entry">
+                <h3>TCS / Pantar / Others • Data Engineering Roles</h3>
+                <small>2008 – 2020</small>
+                <p>Extensive ETL, PL/SQL, Automation, Unix scripting, and large-scale Oracle data warehousing.</p>
+            </div>
+
+        </div>
+
+        <!-- CONTACT -->
+        <h2 class="section-title"><i class="fas fa-envelope"></i> Contact</h2>
+        <div class="card">
+            <p><i class="fas fa-envelope"></i> hemantkaus@gmail.com</p>
+            <p><i class="fas fa-phone"></i> +91‑9650801962</p>
+        </div>
+
+    </div>
+
+    <footer>
+        © 2026 • Designed by Hemant kaushik • Modern HTML Resume for GitHub Pages
+    </footer>
+
+</body>
+</html>
